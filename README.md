@@ -1,17 +1,21 @@
 # Hesap-Makinesi-Projesi
 C++ ile hesap makinesi yapımı
-#include <iostream>
-using namespace std;
 
-int main(int argc, char** argv) {
+
+
+
+    #include <iostream>
+    using namespace std;
+
+       int main(int argc, char** argv) {
 	
 	
-	int sayi1,sayi2,islem,devamDurumu;
+     int sayi1,sayi2,islem,devamDurumu;
 	devamDurumu=1;
 	
 	
 	
-	while(devamDurumu==1)
+     while(devamDurumu==1)
 	{
 	cout << "----------HESAP MAKINESI------------\n";
 	cout << "Yapilacak islemi seciniz:(1:Toplama, 2:cikarma, 3:carpma, 4:bolme)";
@@ -22,7 +26,7 @@ int main(int argc, char** argv) {
 	cin >> sayi2;
 	
 	
-	if(islem==1)
+    if(islem==1)
 	{
 		cout << "Sonuc: " << sayi1+sayi2;
 	}
@@ -44,8 +48,8 @@ int main(int argc, char** argv) {
 	}
 	cout << "\n";
 	
-	cout << "devam etmek isterseniz 1 istemezseniz 0'a basiniz:";
+    cout << "devam etmek isterseniz 1 istemezseniz 0'a basiniz:";
 	cin >> devamDurumu;
-}
+    }
 	return 0;
-}
+    }
