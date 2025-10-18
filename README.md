@@ -53,3 +53,4 @@ C++ ile hesap makinesi yapımı
     }
 	return 0;
     }
+// kaderin kodu
